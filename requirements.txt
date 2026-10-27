@@ -1,0 +1,8 @@
+# Versions pinned to the official ML Zoomcamp 2026 data-release reference environment.
+numpy==2.3.3
+pandas==2.3.2
+scikit-learn==1.7.2
+
+# Plotting and notebook support.
+matplotlib>=3.8,<4
+jupyterlab>=4,<5

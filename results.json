@@ -1,0 +1,57 @@
+{
+  "dataset_rows": 5000,
+  "split_sizes": {
+    "train": 3000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "categorical_features": [
+    "lead_source",
+    "industry",
+    "employment_status",
+    "location"
+  ],
+  "numerical_features": [
+    "annual_income",
+    "number_of_courses_viewed",
+    "interaction_count",
+    "lead_score"
+  ],
+  "q1_feature_auc": {
+    "annual_income": 0.6081977776250831,
+    "number_of_courses_viewed": 0.7229894623989618,
+    "interaction_count": 0.7649203047563227,
+    "lead_score": 0.7882254810906102
+  },
+  "q1_answer": "lead_score",
+  "q2_validation_auc": 0.7318222288173319,
+  "q3_precision_recall_closest_threshold": 0.63,
+  "q3_precision": 0.7327586206896551,
+  "q3_recall": 0.7252559726962458,
+  "q3_absolute_gap": 0.007502647993409384,
+  "q4_best_f1_threshold": 0.41,
+  "q4_best_f1": 0.7576158940397351,
+  "q5_fold_auc_scores": [
+    0.7305601027122453,
+    0.7295726148196622,
+    0.7363428071259397,
+    0.7412454717957564,
+    0.7209138590326581
+  ],
+  "q5_fold_auc_std_population": 0.006853233151022138,
+  "q6_tuning": {
+    "1e-06": {
+      "mean_auc": 0.6167342250714795,
+      "std_auc": 0.018669799234831475
+    },
+    "0.001": {
+      "mean_auc": 0.7491721776030379,
+      "std_auc": 0.009996375455700753
+    },
+    "1.0": {
+      "mean_auc": 0.7317269710972524,
+      "std_auc": 0.006853233151022138
+    }
+  },
+  "q6_best_c": 0.001
+}
